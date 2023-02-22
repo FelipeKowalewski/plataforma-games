@@ -9,7 +9,7 @@ import random
 simbolos = {'*': 'pedra', '#': 'papel', '%': 'tesoura'}
 
 
-def pedrapapeltesoura():
+def pedra_papel_tesoura():
 
     user = input("Digite '*' para jogar pedra, '|' para papel ou '%' para tesoura: ")
     computer = random.choice(['*', '#', '%'])
